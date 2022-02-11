@@ -9,6 +9,7 @@ public class T13RefactorSumOfOddNumbers {
 
         int sum = 1;
         int finalSum = 0;
+      
         for (int i = 1; i <= number; i++) {
             System.out.println(sum);
             finalSum += sum;
