@@ -15,6 +15,7 @@ public class T13RefactorSumOfOddNumbers {
             finalSum += sum;
             sum += 2;
         }
+    
         System.out.printf("Sum: %d", finalSum);
     }
 }
