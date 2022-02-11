@@ -41,6 +41,7 @@ public class T07TheatrePromotion {
                 }
                 break;
         }
+        
         if (age < 0 || age > 122) {
             System.out.println("Error!");
         } else {
