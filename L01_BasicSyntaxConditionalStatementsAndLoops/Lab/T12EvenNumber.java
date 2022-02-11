@@ -11,6 +11,7 @@ public class T12EvenNumber {
             System.out.println("Please write an even number.");
             number = Integer.parseInt(scanner.nextLine());
         }
+      
         System.out.printf("The number is: %d", Math.abs(number));
     }
 }
