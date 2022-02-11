@@ -10,6 +10,7 @@ public class T07TheatrePromotion {
 
         int price = 0;
         switch (typeDay) {
+           
             case "Weekday":
                 if (age < 19) {
                     price = 12;
@@ -19,6 +20,7 @@ public class T07TheatrePromotion {
                     price = 12;
                 }
                 break;
+           
             case "Weekend":
                 if (age < 19) {
                     price = 15;
@@ -28,6 +30,7 @@ public class T07TheatrePromotion {
                     price = 15;
                 }
                 break;
+           
             case "Holiday":
                 if (age < 19) {
                     price = 5;
