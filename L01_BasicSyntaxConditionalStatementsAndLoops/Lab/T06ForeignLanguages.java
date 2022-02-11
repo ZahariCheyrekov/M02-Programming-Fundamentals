@@ -12,6 +12,7 @@ public class T06ForeignLanguages {
             case "USA":
                 System.out.println("English");
                 break;
+            
             case "Spain":
             case "Mexico":
                 System.out.println("Spanish");
