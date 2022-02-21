@@ -9,6 +9,7 @@ public class T06MiddleCharacters {
         String input = scanner.nextLine();
         
         String result = printMiddlePart(input);
+        
         System.out.println(result);
     }
 
