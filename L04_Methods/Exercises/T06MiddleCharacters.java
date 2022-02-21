@@ -20,6 +20,7 @@ public class T06MiddleCharacters {
         } else {
             result = input.charAt(input.length() / 2 - 1) + "" + input.charAt(input.length() / 2);
         }
+        
         return result;
     }
 }
